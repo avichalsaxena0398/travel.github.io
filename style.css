@@ -1,0 +1,24 @@
+
+.jumbotron {
+    height: 550px;
+    background-image: url(i4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.cont {
+     display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    
+}
+.card-body {
+    margin: 15px;
+}
+.card-img-top {
+    width: auto;
+    height: auto;
+    margin: 5px;
+}
